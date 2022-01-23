@@ -13,6 +13,7 @@ class Role(str, Enum):
     user = "user"
     student = "student"
 
+# Class User
 class User(BaseModel):
     id: Optional[UUID] = uuid4()
     first_name: str
